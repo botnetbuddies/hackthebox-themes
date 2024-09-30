@@ -1,0 +1,167 @@
+* {
+    active-background: #7B8389; /* Keep as is */
+    active-foreground: #A4AFC6; /* Font color */
+    normal-background: #101722; /* Background */
+    normal-foreground: #A4AFC6; /* Font color */
+    urgent-background: #719254; /* Keep as is */
+    urgent-foreground: #A4AFC6; /* Font color */
+
+    alternate-active-background: #101722; /* Background */
+    alternate-active-foreground: #A4AFC6; /* Font color */
+    alternate-normal-background: #101722; /* Background */
+    alternate-normal-foreground: #A4AFC6; /* Font color */
+    alternate-urgent-background: #101722; /* Background */
+    alternate-urgent-foreground: #A4AFC6; /* Font color */
+
+    selected-active-background: #9EED00; /* Selection background */
+    selected-active-foreground: #101722; /* Selection text color */
+    selected-normal-background: #9EED00; /* Selection background */
+    selected-normal-foreground: #101722; /* Selection text color */
+    selected-urgent-background: #9EED00; /* Selection background */
+    selected-urgent-foreground: #101722; /* Selection text color */
+
+    background-color: #101722; /* Background */
+    background: #101722; /* Background */
+    foreground: #A4AFC6; /* Font color */
+    border-color: #101722; /* Background */
+    spacing: 2;
+}
+
+#window {
+    background-color: #101722; /* Background */
+    border: 0;
+    padding: 2.5ch;
+}
+
+#mainbox {
+    border: 0;
+    padding: 0;
+}
+
+#message {
+    border: 2px 0px 0px;
+    border-color: #101722; /* Background */
+    padding: 1px;
+}
+
+#textbox {
+    text-color: #A4AFC6; /* Font color */
+}
+
+#inputbar {
+    children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+#textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    margin: 0px 0.3em 0em 0em;
+    text-color: #A4AFC6; /* Font color */
+}
+
+#listview {
+    fixed-height: 0;
+    border: 2px 0px 0px;
+    border-color: #101722; /* Background */
+    spacing: 2px;
+    scrollbar: true;
+    padding: 2px 0px 0px;
+}
+
+#element {
+    border: 0;
+    padding: 1px;
+}
+
+#element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+#element.normal.normal {
+    background-color: #101722; /* Background */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#element.normal.urgent {
+    background-color: #719254; /* Keep as is */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#element.normal.active {
+    background-color: #7B8389; /* Keep as is */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#element.selected.normal {
+    background-color: #9EED00; /* Selection background */
+    text-color: #101722; /* Selection text color */
+}
+
+#element.selected.urgent {
+    background-color: #9EED00; /* Selection background */
+    text-color: #101722; /* Selection text color */
+}
+
+#element.selected.active {
+    background-color: #9EED00; /* Selection background */
+    text-color: #101722; /* Selection text color */
+}
+
+#element.alternate.normal {
+    background-color: #101722; /* Background */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#element.alternate.urgent {
+    background-color: #101722; /* Background */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#element.alternate.active {
+    background-color: #101722; /* Background */
+    text-color: #A4AFC6; /* Font color */
+}
+
+#scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 8px;
+    padding: 0;
+}
+
+#sidebar {
+    border: 2px 0px 0px;
+    border-color: #101722; /* Background */
+}
+
+#button {
+    text-color: #A4AFC6; /* Font color */
+}
+
+#button.selected {
+    background-color: #9EED00; /* Selection background */
+    text-color: #101722; /* Selection text color */
+}
+
+#inputbar {
+    spacing: 0;
+    text-color: #A4AFC6; /* Font color */
+    padding: 1px;
+}
+
+#case-indicator {
+    spacing: 0;
+    text-color: #A4AFC6; /* Font color */
+}
+
+#entry {
+    spacing: 0;
+    text-color: #A4AFC6; /* Font color */
+}
+
+#prompt {
+    spacing: 0;
+    text-color: #A4AFC6; /* Font color */
+}
+
