@@ -1,0 +1,21 @@
+Welcome to your Parrot Linux desktop!
+
+Internet access is enabled for paid users subject to the following:
+1. This instance is not meant to perform real assessments or interact with any live targets.
+2. Pentesting any target (with or without consent) outside of HTB labs is prohibited.
+
+Free users are limited to our own targets, and GitHub.
+
+Remember! Do not store any personal or sensitive information in this box!
+Its only purpose is to allow you to play in our labs.
+
+Feel free to install any tools you prefer. 
+You have a small amount of persistent storage in ~/my_data.
+You can also add persistent customizations via ~/my_data/user_init file, which gets executed on startup!
+
+While ~/my_data will persist, we cannot guarantee its availability, nor do we back it up! 
+We cannot recover this data if it is lost! Do not store anything critical or sensitive here.
+
+Note that once this instance is terminated, all data not in ~/my_data, including tools you installed, will be lost! 
+
+PS: You have sudo :)
