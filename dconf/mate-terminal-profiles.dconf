@@ -1,0 +1,16 @@
+[/]
+background-color='#14141D1D2B2B'
+background-darkness=0.75298804780876494
+background-type='transparent'
+bold-color='#9897E4E40201'
+bold-color-same-as-fg=false
+cursor-shape='block'
+default-show-menubar=false
+font='JetBrains Mono Medium 12'
+foreground-color='#C3C3C3C3C4C4'
+palette='#14141D1D2B2B:#FFFF3E3E3E3E:#6F6FA7A70000:#B5B57C7C0000:#00008686FFFF:#9F9F0000FFFF:#0000D4D49C9C:#A4A4B1B1CDCD:#18181F1F2B2B:#FFFF5D5D5D5D:#9F9FEFEF0000:#FFFFAFAF0000:#2C2C9B9BFFFF:#ACAC2323FFFF:#2E2EE7E7B6B6:#B5B5BFBFD5D5'
+scroll-on-keystroke=true
+scrollbar-position='hidden'
+use-system-font=false
+use-theme-colors=false
+visible-name='hackthebox'

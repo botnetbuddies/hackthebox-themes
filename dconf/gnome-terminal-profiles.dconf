@@ -1,0 +1,15 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(20,29,43)'
+bold-color='rgb(159,239,0)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cursor-background-color='rgb(159,239,0)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(20,29,43)'
+foreground-color='rgb(195,195,196)'
+highlight-background-color='rgb(159,239,0)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(20,29,43)'
+palette=['rgb(20,29,43)', 'rgb(255,62,62)', 'rgb(111,167,0)', 'rgb(181,124,0)', 'rgb(0,134,255)', 'rgb(159,0,255)', 'rgb(0,212,156)', 'rgb(164,177,205)', 'rgb(24,31,43)', 'rgb(255,93,93)', 'rgb(159,239,0)', 'rgb(255,175,0)', 'rgb(44,155,255)', 'rgb(172,35,255)', 'rgb(46,231,182)', 'rgb(181,191,213)']
+use-theme-colors=false
+visible-name='hackthebox'
