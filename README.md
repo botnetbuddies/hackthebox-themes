@@ -20,7 +20,7 @@ For installing purposes please refer to [install.md](./install.nd) and for contr
 
 # Ports to platforms outside of this repo
 * [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=silofy.hackthebox) By silofy
-* [Obsidian](https://github.com/golam71/obsidian-hackthebox) By Htb community
+* [Obsidian](https://github.com/golam71/obsidian-hackthebox) By HTB Community
 * [Wallpapers](https://www.hackthebox.com/images/landingv3/wallpapers/community-wallpapers.zip) By HTB
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hack-the-box-v3-theme/) By 0xRy4n
 * [Vim](https://github.com/audibleblink/hackthebox.vim) By audibleblink
