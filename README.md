@@ -13,6 +13,7 @@ For installing purposes please refer to [install.md](./install.nd) and for contr
 * [terminator](.config/terminator/config)
 * [gnome terminal](/dconf/gnome-terminal-profiles.dconf)
 * [mate terminal](/dconf/mate-terminal-profiles.dconf)
+* [xfce4 terminal](/usr/share/xfce4/terminal/colorschemes/hackthebox.theme)
 * [zellij](.config/zellij/themes/htb.kdl)
 * [rofi](.config/rofi/config.rasi)
 * [bash scripts](/etc/htb)
