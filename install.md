@@ -5,10 +5,19 @@ This is a guide for installing the theme
 you need to download the hackthebox theme,icon zip file and unzip it then put it in your `/usr/share/themes` and `/usr/share/icons`
 and then enable the theme.
 
+```bash
+cp -r hackthebox/usr/share/icons/Hack-The-Box-Icons/ /usr/share/icons
+cp -r hackthebox/usr/share/themes/Hack-The-Box/ /usr/share/themes
+```
+
 # Bash files
 
 you need to put everything in etc/htb in the `/etc/htb` dir.
-and your bashrc in `~/`
+and your `.bashrc` in `~/`
+
+```bash
+cp -r hackthebox/etc/htb/ /etc
+```
 
 # i3wm
 
@@ -94,14 +103,14 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 This uses `.theme` files for its colors. you need to put the file in `/usr/share/xfce4/terminal/colorschemes`
 
 ```bash
-mv hackthebox.theme /usr/share/xfce4/terminal/colorschemes
+mv hackthebox/usr/share/xfce4/terminal/colorschemes/hackthebox.theme /usr/share/xfce4/terminal/colorschemes
 ```
 ## terminator
 
 put the config file in `~/.config/terminator/config`
 
 ```bash
-mv config ~/.config/terminator/config
+mv hackthebox/.config/terminator/config ~/.config/terminator/config
 ```
 
 ## kitty 
@@ -109,7 +118,7 @@ mv config ~/.config/terminator/config
 put the config file in `~/.config/kitty/kitty.conf`
 
 ```bash
-mv kitty.conf ~/.config/kitty/kitty.conf
+mv hackthebox/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ```
 # Application launcher 
 
@@ -117,7 +126,7 @@ mv kitty.conf ~/.config/kitty/kitty.conf
 put the config file in `~/.config/rofi/config.rasi`
 
 ```bash
-mv config.rasi ~/.config/rofi/config.rasi
+mv hackthebox/.config/rofi/config.rasi ~/.config/rofi/config.rasi
 ```
 
 # Terminal multiplexer
@@ -127,6 +136,6 @@ mv config.rasi ~/.config/rofi/config.rasi
 put the config file in `~/.config/zellij/themes`
 
 ```bash
-mv htb.kdl ~/.config/zellij/themes
+mv hackthebox/.config/zellij/themes/htb.kdl ~/.config/zellij/themes
 ```
 
