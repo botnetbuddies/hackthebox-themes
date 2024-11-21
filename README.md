@@ -1,7 +1,7 @@
 # Hackthebox Theme
 A collection of config files for linux focusing on [hackthebox](https://www.hackthebox.com/) theme based on the [labs](https://app.hackthebox.com/) and [academy](https://academy.hackthebox.com/) platform.
 
-For installing purposes please refer to [install.md](./install.nd) and for contributing [contributing.md](./contributing.nd) 
+For installing purposes please refer to [install.md](./install.md) and for contributing [contributing.md](./contributing.md) 
 
 > [!IMPORTANT]  
 > please read the install guide first
