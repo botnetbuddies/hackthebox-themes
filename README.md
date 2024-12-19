@@ -17,7 +17,7 @@ For installing purposes please refer to [install.md](./install.md) and for contr
 * [zellij](.config/zellij/themes/htb.kdl)
 * [rofi](.config/rofi/config.rasi)
 * [bash scripts](/etc/htb)
-* [.bashrc](./.bashrc)
+* [.bashrc](./bashrc)
 * [gtk theme](./usr/share/themes/Hack-The-Box)
 * [icon theme](./usr/share/icons/Hack-The-Box-Icons)
 
