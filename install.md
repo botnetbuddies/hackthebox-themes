@@ -120,6 +120,15 @@ put the config file in `~/.config/kitty/kitty.conf`
 ```bash
 mv hackthebox/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ```
+### Don't see your terminal listed here?
+
+no need to worry just cat the sequance file and this way you can get the color theme in any terminal instantly
+i recommend puttin it in your bashrc (this way it also works inside tmux)
+
+`cat hackthebox/sequences`
+
+and any terminal will instantly have the colors 
+
 # Application launcher 
 
 ## rofi
@@ -138,4 +147,19 @@ put the config file in `~/.config/zellij/themes`
 ```bash
 mv hackthebox/.config/zellij/themes/htb.kdl ~/.config/zellij/themes
 ```
+
+##tmux 
+
+```bash
+mv hackthebox/.config/tmux/tmux.conf ~/.config/tmux
+```
+
+```
+set-option -g default-command bash
+set -g default-terminal "screen-256color"
+set-option -ga terminal-overrides ",xterm-256color:Tc"
+set -g status-style 'bg=#9CE907,fg=#10180D'
+```
+
+*note if you see your colors getting messed up my tmux you can cat the sequance file*
 
