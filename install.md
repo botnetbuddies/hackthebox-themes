@@ -17,12 +17,19 @@ and your `.bashrc` in `~/`
 
 ```bash
 cp -r hackthebox/etc/htb/ /etc
+cp hackthebox/bashrc ~/.bashrc
 ```
 
 # i3wm
 
 starting with i3 you can just put the colors in your config and it will look as expected.
 
+```bash
+cp -r hackthebox/.config/i3/* .config/i3/
+cp hackthebox/.config/i3status/config .config/i3status/config
+```
+if you just want the colors you can add the following but for the htb tun0 ip server and ping you would need the bash files 
+i have explained below as well
 ```
 
 set $fg  #bbff34
@@ -148,12 +155,12 @@ put the config file in `~/.config/zellij/themes`
 mv hackthebox/.config/zellij/themes/htb.kdl ~/.config/zellij/themes
 ```
 
-##tmux 
+## tmux 
 
 ```bash
 mv hackthebox/.config/tmux/tmux.conf ~/.config/tmux
 ```
-
+the file is really small and self explanatory 
 ```
 set-option -g default-command bash
 set -g default-terminal "screen-256color"
