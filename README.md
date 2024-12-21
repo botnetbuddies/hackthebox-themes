@@ -4,7 +4,7 @@
 
 A collection of config files for linux focusing on [hackthebox](https://www.hackthebox.com/) theme based on the [labs](https://app.hackthebox.com/) and [academy](https://academy.hackthebox.com/) platform.
 
-For installing purposes please refer to [install.md](./install.md) and for contributing [contributing.md](./contributing.md) 
+For installing purposes please refer to [install.md](./install.md) 
 
 > [!IMPORTANT]  
 > Please read the install guide first.
