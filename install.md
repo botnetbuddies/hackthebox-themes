@@ -90,6 +90,8 @@ the `status.sh` only checks if the `/etc/htb/i3status-server.sh` and `i3status.s
 
 `/etc/htb/i3status-server.sh` is a modified version of `/etc/htb/vpnpanel.sh` 
 
+*you will see a top command is used instead of i3status CPU that is because i3status run once has a bug and it returns negative int*
+
 to better understand this you can just run these commands yourself.
 
 
