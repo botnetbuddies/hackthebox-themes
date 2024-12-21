@@ -1,10 +1,13 @@
 # Hackthebox Theme
+> [!IMPORTANT]
+> We're not affiliated with HackTheBox, we just love the platform and community. Use at your own risk, We are not responsible for your damages.
+
 A collection of config files for linux focusing on [hackthebox](https://www.hackthebox.com/) theme based on the [labs](https://app.hackthebox.com/) and [academy](https://academy.hackthebox.com/) platform.
 
 For installing purposes please refer to [install.md](./install.md) and for contributing [contributing.md](./contributing.md) 
 
 > [!IMPORTANT]  
-> please read the install guide first
+> Please read the install guide first.
 
 # Ports to platforms in this repo
 * [i3](.config/i3/config)
