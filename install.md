@@ -20,6 +20,10 @@ cp -r hackthebox/etc/htb/ /etc
 cp hackthebox/bashrc ~/.bashrc
 ```
 
+
+> [!IMPORTANT]  
+> for the bashrc to work with your ip and server name(also in the i3bar) you need to put all your vpn files in `~/.vpn`
+
 # i3wm
 
 starting with i3 you can just put the colors in your config and it will look as expected.
