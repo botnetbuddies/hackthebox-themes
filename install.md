@@ -134,7 +134,7 @@ mv hackthebox/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ### Don't see your terminal listed here?
 
 no need to worry just cat the sequance file and this way you can get the color theme in any terminal instantly
-i recommend puttin it in your bashrc (this way it also works inside tmux)
+i recommend putting it in your bashrc (this way it also works inside tmux)
 
 `cat hackthebox/sequences`
 
