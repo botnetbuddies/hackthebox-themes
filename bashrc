@@ -136,4 +136,4 @@ set mouse=a
 
 
 export COLORTERM=truecolor
-cat ~/sequences
+#cat ~/sequences
